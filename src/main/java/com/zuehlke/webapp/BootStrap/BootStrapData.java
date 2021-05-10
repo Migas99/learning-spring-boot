@@ -41,16 +41,16 @@ public class BootStrapData implements CommandLineRunner {
         this.publisherRepository.save(editor);
 
         Author rod = new Author("Rod", "Johnson");
-        Book noEJ8 = new Book("J2EE Development without EJ8", "3939459459");
+        Book noEJB = new Book("J2EE Development without EJB", "3939459459");
 
-        rod.getBooks().add(noEJ8);
-        noEJ8.getAuthors().add(rod);
+        rod.getBooks().add(noEJB);
+        noEJB.getAuthors().add(rod);
 
-        noEJ8.setPublisher(editor);
-        editor.getBooks().add(noEJ8);
+        noEJB.setPublisher(editor);
+        editor.getBooks().add(noEJB);
 
         this.authorRepository.save(rod);
-        this.bookRepository.save(noEJ8);
+        this.bookRepository.save(noEJB);
         this.publisherRepository.save(editor);
 
         System.out.println("Starting in Bootstrap");
