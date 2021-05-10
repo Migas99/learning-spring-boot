@@ -20,3 +20,4 @@ Details:
 - One using the Setters
 - One from the constructor method
 - Best practice is to always instanciate from the constructor method
+- @Autowired annotation is used to tell Spring when we want to inject something (by default, if using the constructor method there's no need for that)
