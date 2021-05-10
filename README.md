@@ -1,4 +1,4 @@
-# learning-spring-boot
+# Spring Boot Web App
 
 ***Status: Complete***
 
