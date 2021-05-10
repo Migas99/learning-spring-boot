@@ -1,9 +1,18 @@
-# Learning Spring Boot - Spring Framework 5: Beginner to Guru
+# Spring Boot Pet Clinic Application
 
-https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
+***Status: Incomplete***
 
-Contains different projects built using Spring Boot.
+# Context and Details
 
-Each branch in this repository will contain a different project.
+Example Application using Spring Boot.
 
-The details of each project will be in the README file in the respective branch.
+Built in Java 8 using Maven.
+
+Dependencies:
+- To define
+
+Context:
+- To define
+
+Details:
+- To define
