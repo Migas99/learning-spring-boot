@@ -12,7 +12,11 @@ Dependencies:
 - None
 
 Context:
-- To define
+- Learn the different ways to inject dependencies and know which ones are best practice
 
 Details:
-- To define
+- Implemented three ways to inject dependencies
+- One using the properties
+- One using the Setters
+- One from the constructor method
+- Best practice is to always instanciate from the constructor method
