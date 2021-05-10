@@ -3,6 +3,8 @@ Example Web App using Spring Boot.
 
 Built in Java 11 using Maven.
 
+Status: Complete
+
 Dependencies:
 - Spring Web
 - Spring Data JPA
