@@ -7,6 +7,7 @@ Dependencies:
 - Spring Web
 - Spring Data JPA
 - H2 Database
+- Thymeleaf
 
 Context:
 - This application will have Authors, Books and Publishers
