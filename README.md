@@ -1,4 +1,4 @@
-# Spring Boot Web App
+# Spring Boot Pet Clinic Application
 
 ***Status: Incomplete***
 
