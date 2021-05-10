@@ -1,9 +1,12 @@
 # learning-spring-boot
+
+***Status: Complete***
+
+# Context and Details
+
 Example Web App using Spring Boot.
 
 Built in Java 11 using Maven.
-
-Status: Complete
 
 Dependencies:
 - Spring Web
