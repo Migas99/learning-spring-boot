@@ -21,3 +21,5 @@ Details:
 - One from the constructor method
 - Best practice is to always instanciate from the constructor method
 - @Autowired annotation is used to tell Spring when we want to inject something (by default, if using the constructor method there's no need for that)
+- @Qualifier decides which type of instance of one bean is injected
+- @Primary sets an certain instance of an bean as default depdency injection when @Qualifier doesn't specify
