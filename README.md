@@ -1,13 +1,20 @@
-# [Learning Spring Boot - Spring Framework 5: Beginner to Guru](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/)
+# Spring Boot Chuck Norris Jokes Application
 
-Contains different projects built using Spring Boot.
+***Status: Incomplete***
 
-Each branch in this repository will contain a different project.
+# Context and Details
 
-The details of each project will be in the README file in the respective branch.
+Example Application using Spring Boot.
 
-# List of projects by branch
+Built in Java 11 using Maven.
 
-- [Simple Web App](https://github.com/Migas99/learning-spring-boot/tree/web-app)
-- [Dependency Injection Examples](https://github.com/Migas99/learning-spring-boot/tree/dependency-injection)
-- [Pet Clinic App](https://github.com/Migas99/learning-spring-boot/tree/pet-clinic)
+Dependencies:
+- Spring Web
+- Thymeleaf
+- Chuck Norris for Actuator
+
+Context:
+- Each time you visit the endpoint of this application, it will be presented a random Chuck Norris joke.
+
+Details:
+- None.
