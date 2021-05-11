@@ -26,8 +26,7 @@
     <scm>
         <!-- This link won't work since it is directing to an branch instead of being the clone project link.
         Extra info on README on the branch the link directs to. -->
-        <developerConnection>scm:git:https://github.com/Migas99/learning-spring-boot/tree/pet-clinic
-        </developerConnection>
+        <developerConnection>scm:git:https://github.com/Migas99/learning-spring-boot/tree/pet-clinic</developerConnection>
         <tag>pet-clinic-0.0.1</tag>
     </scm>
 
