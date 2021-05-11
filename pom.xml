@@ -22,7 +22,7 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/Migas99/learning-spring-boot/tree/pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/Migas99/learning-spring-boot.git</developerConnection>
         <tag>pet-clinic-0.0.1</tag>
     </scm>
 
