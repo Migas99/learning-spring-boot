@@ -1,13 +1,20 @@
-# [Learning Spring Boot - Spring Framework 5: Beginner to Guru](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/)
+# Spring Boot Pet Clinic Application
 
-Contains different projects built using Spring Boot.
+***Status: Incomplete***
 
-Each branch in this repository will contain a different project.
+***IMPORTANTE: During the lecture of this project, we had to deploy using a Maven Plugin our project, but unfortly, in order for that to work, the project had to be on main branch. With the approach that I took of having an unique branch per project, the deploy was not possible. Nonetheless, the configuration will be left there.***
 
-The details of each project will be in the README file in the respective branch.
+# Context and Details
 
-# List of projects by branch
+Example Application using Spring Boot.
 
-- [Simple Web App](https://github.com/Migas99/learning-spring-boot/tree/web-app)
-- [Dependency Injection Examples](https://github.com/Migas99/learning-spring-boot/tree/dependency-injection)
-- [Pet Clinic App](https://github.com/Migas99/learning-spring-boot/tree/pet-clinic)
+Built in Java 8 using Maven.
+
+Dependencies:
+- To define
+
+Context:
+- To define
+
+Details:
+- To define
