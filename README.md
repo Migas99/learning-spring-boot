@@ -14,6 +14,7 @@ Dependencies:
 Context:
 - Learn the different ways to inject dependencies and know which ones are best practice
 - What are profiles and how can we use them
+- Bean LifeCycle methods
 
 Details:
 - Implemented three ways to inject dependencies
