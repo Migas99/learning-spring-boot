@@ -3,7 +3,7 @@ package com.zuehlke.dependencyinjection.Services;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Profile("PT")
+@Profile({"PT", "default"})
 @Service("i18nService")
 public class I18PortugueseGreetingService implements IGreetingService {
 
