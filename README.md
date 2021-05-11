@@ -1,6 +1,6 @@
 # Spring Boot Dependency Injection example Application
 
-***Status: Incomplete***
+***Status: Complete***
 
 # Context and Details
 
