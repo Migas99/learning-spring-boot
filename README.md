@@ -1,6 +1,4 @@
-# Learning Spring Boot - Spring Framework 5: Beginner to Guru
-
-https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
+# [Learning Spring Boot - Spring Framework 5: Beginner to Guru](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/)
 
 Contains different projects built using Spring Boot.
 
