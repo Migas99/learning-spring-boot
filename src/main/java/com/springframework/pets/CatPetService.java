@@ -3,8 +3,8 @@ package com.springframework.pets;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Service
-@Profile("Cat")
+//@Service
+//@Profile("Cat")
 public class CatPetService implements PetService {
 
     private final String type = "Cat";

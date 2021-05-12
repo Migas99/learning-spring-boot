@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"com.zuehlke.dependencyinjection", "com.springframework.pets"})
+//@ComponentScan(basePackages = {"com.zuehlke.dependencyinjection", "com.springframework.pets"})
 @SpringBootApplication
 public class DependencyInjectionApplication {
 
