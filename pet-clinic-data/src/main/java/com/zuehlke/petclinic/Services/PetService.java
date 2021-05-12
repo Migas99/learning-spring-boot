@@ -6,10 +6,10 @@ import java.util.Set;
 
 public interface PetService {
 
-    public Pet findById(Long id);
+    Pet findById(Long id);
 
-    public Pet save(Pet pet);
+    Pet save(Pet pet);
 
-    public Set<Pet> findAll();
+    Set<Pet> findAll();
 
 }

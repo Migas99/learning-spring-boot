@@ -6,12 +6,12 @@ import java.util.Set;
 
 public interface OwnerService {
 
-    public Owner findByLastName(String lastName);
+    Owner findByLastName(String lastName);
 
-    public Owner findById(Long id);
+    Owner findById(Long id);
 
-    public Owner save(Owner owner);
+    Owner save(Owner owner);
 
-    public Set<Owner> findAll();
+    Set<Owner> findAll();
 
 }
