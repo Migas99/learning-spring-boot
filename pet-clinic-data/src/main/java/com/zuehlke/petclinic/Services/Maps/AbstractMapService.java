@@ -1,15 +1,14 @@
 package com.zuehlke.petclinic.Services.Maps;
 
+import com.zuehlke.petclinic.Models.BaseEntity;
 import com.zuehlke.petclinic.Services.CrudService;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
-public abstract class AbstractMapService<T, ID> implements CrudService<T, ID> {
+public abstract class AbstractMapService<T extends BaseEntity> implements CrudService<T, Long> {
 
-    private Map<ID, T> map = new HashMap<>();
+    private Long idCount = 0L;
+    private Map<Long, T> map = new HashMap<>();
 
     @Override
     public Set<T> findAll() {
@@ -17,24 +16,34 @@ public abstract class AbstractMapService<T, ID> implements CrudService<T, ID> {
     }
 
     @Override
-    public T findById(ID id) {
+    public T findById(Long id) {
         return this.map.get(id);
     }
 
     @Override
-    public T save(ID id, T object) {
+    public T save(T object) {
+        this.map.put(this.nextId(), object);
+        return object;
+    }
+
+    @Override
+    public T save(Long id, T object) {
         this.map.put(id, object);
         return object;
     }
 
     @Override
-    public void deleteById(ID id) {
+    public void deleteById(Long id) {
         this.map.remove(id);
     }
 
     @Override
     public void delete(T object) {
         this.map.entrySet().removeIf(entry -> entry.getValue().equals(object));
+    }
+
+    private Long nextId() {
+        return this.idCount++;
     }
 
 }

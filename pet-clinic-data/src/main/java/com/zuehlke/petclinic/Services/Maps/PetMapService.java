@@ -5,15 +5,11 @@ import com.zuehlke.petclinic.Services.PetService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PetMapService extends AbstractMapService<Pet, Long> implements PetService {
+public class PetMapService extends AbstractMapService<Pet> implements PetService {
 
     @Override
     public Pet findByPetName(String name) {
         return null;
     }
 
-    @Override
-    public Pet save(Pet pet) {
-        return super.save(pet.getId(), pet);
-    }
 }
