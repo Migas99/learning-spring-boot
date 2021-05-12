@@ -2,7 +2,7 @@ package com.zuehlke.dependencyinjection.Services;
 
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class ConstructorGreetingService implements IGreetingService {
 
     @Override
