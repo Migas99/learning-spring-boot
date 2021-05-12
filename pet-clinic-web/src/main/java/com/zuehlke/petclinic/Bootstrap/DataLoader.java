@@ -2,8 +2,6 @@ package com.zuehlke.petclinic.Bootstrap;
 
 import com.zuehlke.petclinic.Models.Owner;
 import com.zuehlke.petclinic.Models.Vet;
-import com.zuehlke.petclinic.Services.Maps.OwnerMapService;
-import com.zuehlke.petclinic.Services.Maps.VetMapService;
 import com.zuehlke.petclinic.Services.OwnerService;
 import com.zuehlke.petclinic.Services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
