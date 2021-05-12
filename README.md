@@ -26,3 +26,4 @@ Details:
 - @Qualifier decides which type of instance of one bean is injected
 - @Primary sets an certain instance of an bean as default depdency injection when @Qualifier doesn't specify
 - @Profile defines in which profiles the services are called
+- @ComponentScan scans or other components outside the main package
