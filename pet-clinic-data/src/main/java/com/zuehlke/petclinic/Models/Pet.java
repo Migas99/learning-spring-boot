@@ -9,6 +9,18 @@ public class Pet extends BaseEntity {
     private PetType petType;
     private Owner owner;
 
+    public Pet() {
+        super();
+    }
+
+    public Pet(String name, LocalDate birthDate, PetType type, Owner owner) {
+        super();
+        this.name = name;
+        this.birthDate = birthDate;
+        this.petType = type;
+        this.owner = owner;
+    }
+
     public LocalDate getBirthDate() {
         return birthDate;
     }

@@ -10,4 +10,9 @@ public class OwnerMapService extends AbstractMapService<Owner, Long> implements 
         return null;
     }
 
+    @Override
+    public Owner save(Owner owner) {
+        return super.save(owner.getId(), owner);
+    }
+
 }
