@@ -25,9 +25,11 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Owner owner1 = new Owner("Michael", "Weston");
+        System.out.println(owner1.getId());
         this.ownerService.save(owner1);
 
         Owner owner2 = new Owner("Fiona", "Stuart");
+        System.out.println(owner2.getId());
         this.ownerService.save(owner2);
 
         System.out.println("Loaded owners ... ");
